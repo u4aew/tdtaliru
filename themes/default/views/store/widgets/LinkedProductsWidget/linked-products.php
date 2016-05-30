@@ -1,5 +1,6 @@
 <?php /* @var $dataProvider CActiveDataProvider */ ?>
     Если характеристики данной модели Вам не подходят, обратите внимание на схожую продукцию:
+<hr style="margin: 10px 0 0 0">
 <?php $this->widget(
     'zii.widgets.CListView',
     [
@@ -10,4 +11,4 @@
         'pager' => false,
     ]
 ); ?>
-
+<hr>
