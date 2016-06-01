@@ -345,7 +345,6 @@ $this->breadcrumbs = array_merge(
                     </div>
                 <?php endif; ?>
 
-
             </div>
             <div class="row" style="margin-top:10px;" style="text-align:center;">
                 <!-- Сопутствующий товар  -->

@@ -1,7 +1,7 @@
 <?php
  return array (
   'class' => 'CDbConnection',
-  'connectionString' => 'mysql:host=127.0.0.1;port=3306;dbname=database_tdtaliru',
+  'connectionString' => 'mysql:host=127.0.0.1;port=3306;dbname=date_basetali',
   'username' => 'root',
   'password' => '',
   'emulatePrepare' => true,
