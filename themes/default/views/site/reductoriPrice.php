@@ -6,12 +6,12 @@
 		
 		<p style="text-align:center">При заключении долгосрочных договоров на поставку возможны СКИДКИ и БОНУСЫ!!! </p>
 	</div>
-		<div class="col-lg-6">
-		<p align="center"> <a class="link-color" style="text-decoration: underline" href="#"> Скачать Прайс-лист в формате xls</a> </p>
-	</div>
-	<div class="col-lg-6">
-		<p align="center"> <a class="link-color" style="text-decoration: underline" href="#">  Скачать Прайс-лист в архиве zip </a> </p>
-	</div>
+    <div class="col-lg-12">
+        <p align="center"><a class="price-excel" style="text-decoration: underline"
+                             href="https://docs.google.com/spreadsheets/d/1N-gRf1mu_4ld0walckANzlvQsJIc_fgItMFFeobxxik/pub?output=xlsx">
+                Скачать прайс-лист в Excel <img style="max-width: 30px;height: auto" src="/uploads/image/excel.png">
+            </a></p>
+    </div>
 </div>
 <?php 
     use \application\store;

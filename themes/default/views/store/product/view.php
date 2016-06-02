@@ -185,9 +185,9 @@ $this->breadcrumbs = array_merge(
                                 <?= $product->description; ?>
                             </p>
                         </div>
-                        <div class="next-read"><a class="btn btn-default hidden-xs" href="#block-description"
+                        <div class="next-read"><button style="font-weight: bold;" class="btn btn-default hidden-xs"
                                                   onclick="$('#block-description').toggleClass('description-block-full');">
-                                Читать далее </a></div>
+                                Читать далее </button></div>
 
 
                     </div>

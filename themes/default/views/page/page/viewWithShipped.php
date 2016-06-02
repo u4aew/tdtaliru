@@ -37,7 +37,7 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
                     <td> «Автотрейдинг»
                     </td>
                     <td>
-                        <a href="http://www.autotrading.ru">http://www.autotrading.ru <a>
+                        <a class="link-color" href="http://www.autotrading.ru">www.autotrading.ru <a>
                     </td>
 
                 </tr>
@@ -45,7 +45,7 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
                     <td> «РАТЭК»
                     </td>
                     <td>
-                        <a href="http://www.rateksib.ru/">www.rateksib.ru <a>
+                        <a class="link-color" href="http://www.rateksib.ru/">www.rateksib.ru <a>
                     </td>
 
                 </tr>
@@ -53,7 +53,7 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
                     <td> «Деловые линии»
                     </td>
                     <td>
-                        <a href="http://www.dellin.ru/">www.dellin.ru <a>
+                        <a class="link-color" href="http://www.dellin.ru/">www.dellin.ru <a>
                     </td>
 
                 </tr>
@@ -61,7 +61,7 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
                     <td> «Автотрейдинг»
                     </td>
                     <td>
-                        <a href="www.autotrading.ru/">www.autotrading.ru <a>
+                        <a class="link-color" href="http://www.autotrading.ru/">www.autotrading.ru <a>
                     </td>
 
                 </tr>
@@ -69,16 +69,12 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
                     <td> «Автотрейдинг»
                     </td>
                     <td>
-                        <a href="www.autotrading.ru/">www.autotrading.ru <a>
+                        <a class="link-color" href="http://www.autotrading.ru/">www.autotrading.ru <a>
                     </td>
-
                 </tr>
-
                 </tbody>
             </table>
         </div>
-
-
     </div>
     <div class="row">
         <div class="col-lg-12">
@@ -90,6 +86,82 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
         </div>
 
     </div>
+
+    <div class="row" style="margin: 0px;padding: 10px">
+      <p align="center" style="color: black">  <strong> Отгрузка лебедок автомобильным транспортом </strong> </p>
+    <hr>
+        <div class="col-lg-4"><a  class="example6" href="/uploads/image/7b8a93f59eda25033b04e12cd9424135.JPG"> <img class="img-shipped" src="/uploads/image/7b8a93f59eda25033b04e12cd9424135.JPG"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/e41ca28ceb9b5417b1d84ddf941e7f05.JPG">  <img class="img-shipped" src="/uploads/image/e41ca28ceb9b5417b1d84ddf941e7f05.JPG"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/26235bab9a56b99203323fa4a22d7901.jpg">   <img class="img-shipped" src="/uploads/image/26235bab9a56b99203323fa4a22d7901.jpg"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/f32de5a884c291719d836ce44fd94e5c.jpg">   <img class="img-shipped" src="/uploads/image/f32de5a884c291719d836ce44fd94e5c.jpg"> </a>
+        </div>
+        <hr>
+    </div>
+
+
+    <div class="row" style="margin: 0px;padding: 10px">
+        <p align="center" style="color: black">  <strong> Отгрузка контейнером </strong> </p>
+        <hr>
+        <div class="col-lg-4"><a  class="example6" href="/uploads/image/1.jpg"> <img class="img-shipped" src="/uploads/image/1.jpg"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/2.jpg">  <img class="img-shipped" src="/uploads/image/2.jpg"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/3.jpg">   <img class="img-shipped" src="/uploads/image/3.jpg"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/4.jpg">   <img class="img-shipped" src="/uploads/image/4.jpg"> </a>
+        </div>
+        <hr>
+    </div>
+
+
+
+
+    <div class="row" style="margin: 0px;padding: 10px">
+        <p align="center" style="color: black">  <strong> Отправка почтой </strong> </p>
+        <hr>
+        <div class="col-lg-4"><a  class="example6" href="/uploads/image/5.jpg"> <img class="img-shipped" src="/uploads/image/5.jpg"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/6.jpg">  <img class="img-shipped" src="/uploads/image/6.jpg"> </a>
+        </div>
+        <hr>
+    </div>
+
+    <div class="row" style="margin: 0px;padding: 10px">
+        <p align="center" style="color: black">  <strong> Отгрузка редукторов </strong> </p>
+        <hr>
+        <div class="col-lg-4"><a  class="example6" href="/uploads/image/7.jpg"> <img class="img-shipped" src="/uploads/image/7.jpg"> </a>
+        </div>
+        <div class="col-lg-4"> <a  class="example6" href="/uploads/image/8.jpg">  <img class="img-shipped" src="/uploads/image/8.jpg"> </a>
+        </div>
+        <hr>
+    </div>
+
+
+    <!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <div class="row">
@@ -120,19 +192,22 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
     <div class="row">
         <div class="col-lg-6">
             <img src="/uploads/image/1.jpg" alt=""
-                 style="display: block;margin: 0px auto; width: 200px; margin: 10px auto;">
+                 style="display: block;width: 200px; margin: 10px auto;"> </a>
         </div>
         <div class="col-lg-6">
-            <img src="/uploads/image/2.jpg" alt=""
-                 style="display: block;margin: 0px auto; width: 200px; margin: 10px auto;">
+            <a class="example6" href="/uploads/image/2.jpg"> <img src="/uploads/image/2.jpg" alt=""
+                                                                  style="display: block;width: 200px; margin: 10px auto;">
+            </a>
         </div>
         <div class="col-lg-6">
-            <img src="/uploads/image/3.jpg" alt=""
-                 style="display: block;margin: 0px auto; width: 200px; margin: 10px auto;">
+            <a class="example6" href="/uploads/image/3.jpg"> <img src="/uploads/image/3.jpg" alt=""
+                                                                  style="display: block;width: 200px; margin: 10px auto;">
+            </a>
         </div>
         <div class="col-lg-6">
-            <img src="/uploads/image/4.jpg" alt=""
-                 style="display: block;margin: 0px auto; width: 200px; margin: 10px auto;">
+            <a class="example6" href="/uploads/image/4.jpg"> <img src="/uploads/image/4.jpg" alt=""
+                                                                  style="display: block;width: 200px; margin: 10px auto;">
+            </a>
         </div>
     </div>
     <div class="row">
@@ -142,15 +217,18 @@ $this->keywords = $model->keywords ?: Yii::app()->getModule('yupe')->siteKeyWord
     </div>
     <div class="row">
         <div class="col-lg-6">
-            <img src="/uploads/image/5.jpg" alt=""
-                 style="display: block;margin: 0px auto; width: 200px; margin: 10px auto;">
+            <a class="example6" href="/uploads/image/5.jpg"> <img src="/uploads/image/5.jpg" alt=""
+                                                                  style="display: block;width: 200px; margin: 10px auto;">
+            </a>
         </div>
 
         <div class="col-lg-6">
-            <img src="/uploads/image/6.jpg" alt=""
-                 style="display: block;margin: 0px auto; width: 200px; margin: 10px auto;">
+            <a class="example6" href="/uploads/image/6.jpg"> <img src="/uploads/image/6.jpg" alt=""
+                                                                  style="display: block;width: 200px; margin: 10px auto;">
+            </a>
         </div>
     </div>
 
 
 </div>
+-->
