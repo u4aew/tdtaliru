@@ -44,7 +44,6 @@ $this->breadcrumbs = array_merge(
                             <th> Наименование</th>
                             <th> Цена, руб с НДС</th>
                         </tr>
-
                         </thead>
                         <tbody>
                         <tr>
