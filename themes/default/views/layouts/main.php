@@ -72,26 +72,32 @@
                         <table>
                             <tbody>
                             <tr>
-                                <td style="padding: 5px 3px"> <img src="/uploads/image/e680f81035ada0c74679f403375b70b5.png" style="vertical-align: text-top"> </td>
-                                <td style="padding: 5px 3px">  <a
+                                <td style="padding: 5px 3px"><img
+                                        src="/uploads/image/e680f81035ada0c74679f403375b70b5.png"
+                                        style="vertical-align: text-top"></td>
+                                <td style="padding: 5px 3px"><a
                                         style="text-decoration: underline;color: black; font-size: 18px;font-weight: bold"
-                                         href="mailto:barnaul@tali.ru">barnaul@tali.ru</a>  </td>
+                                        href="mailto:barnaul@tali.ru">barnaul@tali.ru</a></td>
                             </tr>
 
                             <tr>
-                                <td style="padding: 5px 3px"> <img src="/uploads/image/30ec0b3984e04a59da7b4b2f9c1476bc.png"></td>
-                                <td style="padding: 5px 3px" > <a style="text-decoration: underline;color: black; font-size: 18px;font-weight: bold"
-                                         href="skype:tdtali?call">
-                                        tdtali </a> </td>
+                                <td style="padding: 5px 3px"><img
+                                        src="/uploads/image/30ec0b3984e04a59da7b4b2f9c1476bc.png"></td>
+                                <td style="padding: 5px 3px"><a
+                                        style="text-decoration: underline;color: black; font-size: 18px;font-weight: bold"
+                                        href="skype:tdtali?call">
+                                        tdtali </a></td>
                             </tr>
 
                             <tr>
-                                <td style="padding: 5px 3px"> <img src="/uploads/image/2988d218dc016b031092696279d9a4a6.png"> </td>
-                                <td style="padding: 5px 3px" ><span style="font-weight: bold;font-size: 18px;color: black"> 480568098  </span> </td>
+                                <td style="padding: 5px 3px"><img
+                                        src="/uploads/image/2988d218dc016b031092696279d9a4a6.png"></td>
+                                <td style="padding: 5px 3px"><span
+                                        style="font-weight: bold;font-size: 18px;color: black"> 480568098  </span></td>
                             </tr>
 
                             </tbody>
-                            </table>
+                        </table>
                     </div>
                     <div class="field" style="padding:10px;text-align:center">
                         <?php $this->widget('application.modules.store.widgets.SearchProductWidget'); ?>
@@ -103,21 +109,28 @@
                     </div>
                     <div class="link-sidebar">
                         <div class="hidden-link">
-                        <a href="/news/vnimanie-povyshenie-cen-na-produkciyu-importnogo-proizvodstva" style="text-decoration: none;margin: 5px;font-style: italic"><p style="margin: 0px"> Цены на Российские лебедки
-                                 </p> <p style="margin: 0px"> не зависят от курса валют <img src="/uploads/image/euro.png" width="20px"> </p>  </p>
-                        <a href="/pages/tehnicheskimi-harakteristikami">Изготовление лебёдок по параметрам заказчика</a>
-                        <a href="/pages/geografiya-postavok">География поставок</a>
-                        <a href="/pages/dostavka-produkcii">Доставка</a>
+                            <a href="/news/vnimanie-povyshenie-cen-na-produkciyu-importnogo-proizvodstva"
+                               style="text-decoration: none;margin: 5px;font-style: italic"><p style="margin: 0px"> Цены
+                                    на Российские лебедки
+                                </p>
+                                <p style="margin: 0px"> не зависят от курса валют <img src="/uploads/image/euro.png"
+                                                                                       width="20px"></p>  </p>
+                                <a href="/pages/tehnicheskimi-harakteristikami">Изготовление лебёдок по параметрам
+                                    заказчика</a>
+                                <a href="/pages/geografiya-postavok">География поставок</a>
+                                <a href="/pages/dostavka-produkcii">Доставка</a>
                         </div>
 
                         <div class="menu-sidebar">
-                            <p style="text-align: center;padding-top:10px;font-size: 20px;font-weight: bold;"> Меню сайта </p>
-                            <ul class="menu-list" ">
-                            <li> <a href="/pages/o-kompanii-td-barnaulskie-tali"> О компании </a> </li>
-                            <li> <a href="/store"> Продукция </a> </li>
-                            <li> <a href="/site/lebedkiprice"> Цены </a> </li>
-                            <li> <a href="/pages/kontakty-kompanii"> Контакты </a> </li>
-                            <li> <a href="/pages/vopros-po-produkcii"> Заявка </a></li>
+                            <p style="text-align: center;padding-top:10px;font-size: 20px;font-weight: bold;"> Меню
+                                сайта </p>
+                            <ul class="menu-list"
+                            ">
+                            <li><a href="/pages/o-kompanii-td-barnaulskie-tali"> О компании </a></li>
+                            <li><a href="/store"> Продукция </a></li>
+                            <li><a href="/site/lebedkiprice"> Цены </a></li>
+                            <li><a href="/pages/kontakty-kompanii"> Контакты </a></li>
+                            <li><a href="/pages/vopros-po-produkcii"> Заявка </a></li>
                             </ul>
                         </div>
                     </div>

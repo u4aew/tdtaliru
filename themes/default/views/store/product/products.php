@@ -24,12 +24,9 @@ $this->breadcrumbs = [Yii::t("StoreModule.store", "Catalog")];
     <div class="row" style="padding-left:30px">
         <h1><?= Yii::t("StoreModule.store", "Product catalog"); ?></h1>
     </div>
-
 <?php if (count($products) > 0) : ?>
     <?php foreach ($products as $item) : ?>
-
         <div class="col-lg-6 col-md-12 col-sm-12">
-
             <div class="decoration-block-store">
             </div>
             <div class="info-block-store">

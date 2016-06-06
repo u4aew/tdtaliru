@@ -84,7 +84,6 @@ $this->breadcrumbs = array_merge(
             </div>
         </div>
     </div>
-
     <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog modal-dialog-product" role="document">
             <div class="modal-content modal-form-custom" style="height: 200px !important;">
@@ -119,13 +118,10 @@ $this->breadcrumbs = array_merge(
                                                                                                    src="<?= StoreImage::product($product); ?>"
                                                                                                    alt="<?= CHtml::encode($product->name); ?>"
                                                                                                    id="main-image"></a>
-
                             <div class="hidden-xs"
                                  style="width: 50px;height: 50px;position: absolute;right:20px;bottom: 70px;">
                                 <img src="http://cj62223.tmweb.ru/zoom.png">
                             </div>
-
-
                         </div>
 
                         <div class="button-block">
@@ -174,7 +170,6 @@ $this->breadcrumbs = array_merge(
                                 <hr>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-8">
                         <!-- Описание  -->
@@ -185,15 +180,14 @@ $this->breadcrumbs = array_merge(
                                 <?= $product->description; ?>
                             </p>
                         </div>
-                        <div class="next-read"><button style="font-weight: bold;" class="btn btn-default hidden-xs"
-                                                  onclick="$('#block-description').toggleClass('description-block-full');">
-                                Читать далее </button></div>
-
-
+                        <div class="next-read">
+                            <button style="font-weight: bold;" class="btn btn-default hidden-xs"
+                                    onclick="$('#block-description').toggleClass('description-block-full');">
+                                Читать далее
+                            </button>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
             <div class="row">
                 <!--Если атрибут "Показать вкладки" больше 0. то выводим табы" -->
@@ -270,7 +264,6 @@ $this->breadcrumbs = array_merge(
 
                                 </div>
                             <?php } endforeach; ?>
-
                         </div>
                     </div>
                 <?php else: ?>
@@ -317,7 +310,6 @@ $this->breadcrumbs = array_merge(
                             <?= $product->data; ?>
                         </div>
                     </div>
-
                     <div class="col-lg-6">
                         <!-- Галерея  -->
                         <?php foreach ($product->getImages() as $key => $image): { ?>
@@ -335,7 +327,6 @@ $this->breadcrumbs = array_merge(
 
                             </div>
                         <?php } endforeach; ?>
-
                         <div class="visible-xs">
                             <!-- Блок описание для мобильной версии  -->
                             <noindex>
@@ -344,7 +335,6 @@ $this->breadcrumbs = array_merge(
                         </div>
                     </div>
                 <?php endif; ?>
-
             </div>
             <div class="row" style="margin-top:10px;" style="text-align:center;">
                 <!-- Сопутствующий товар  -->
@@ -355,9 +345,7 @@ $this->breadcrumbs = array_merge(
         </div>
         <!-- Блок для дполнительной инофрмации  -->
         <div class="col-lg-3 hidden-xs">
-
         </div>
-
     </div>
 <?php Yii::app()->getClientScript()->registerScript(
     "product-images",

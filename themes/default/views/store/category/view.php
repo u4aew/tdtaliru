@@ -98,7 +98,6 @@ $this->breadcrumbs = array_merge(
         <? $this->renderPartial("infoblock/info-kranovie-top"); ?>
         <?php /* return;*/ ?>
     <?php endif; ?>
-
 </div>
 <!--карточки товара в категориях -->
 <div class="container-fluid">
@@ -117,8 +116,6 @@ $this->breadcrumbs = array_merge(
                 ],
             ]
         ); ?>
-
-
     </div>
 </div>
 <script>
